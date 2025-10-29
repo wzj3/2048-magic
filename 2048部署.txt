@@ -17,7 +17,7 @@ mkdir -p logs
 
 # 在虚拟环境中运行
 # 使用nohup后台运行
-nohup python3 2048.py > logs/app.log 2>&1 &
+nohup python3 2048.py > logs/app.log 2>&1 & 
 
 # 查看进程
 ps aux | grep 2048.py
